@@ -12,6 +12,7 @@
 		71B26C0F1F05A48D0018D305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B26C0D1F05A48D0018D305 /* Main.storyboard */; };
 		71B26C111F05A48D0018D305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B26C101F05A48D0018D305 /* Assets.xcassets */; };
 		71B26C141F05A48D0018D305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B26C121F05A48D0018D305 /* LaunchScreen.storyboard */; };
+		71B26C1D1F05A4CE0018D305 /* TSColorRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B26C1C1F05A4CE0018D305 /* TSColorRateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		71B26C101F05A48D0018D305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71B26C131F05A48D0018D305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71B26C151F05A48D0018D305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B26C1C1F05A4CE0018D305 /* TSColorRateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSColorRateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		71B26C081F05A48D0018D305 /* AnimatingColorView */ = {
 			isa = PBXGroup;
 			children = (
+				71B26C1B1F05A4AA0018D305 /* Source */,
 				71B26C091F05A48D0018D305 /* AppDelegate.swift */,
 				71B26C0B1F05A48D0018D305 /* ViewController.swift */,
 				71B26C0D1F05A48D0018D305 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				71B26C151F05A48D0018D305 /* Info.plist */,
 			);
 			path = AnimatingColorView;
+			sourceTree = "<group>";
+		};
+		71B26C1B1F05A4AA0018D305 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				71B26C1C1F05A4CE0018D305 /* TSColorRateView.swift */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				71B26C0C1F05A48D0018D305 /* ViewController.swift in Sources */,
 				71B26C0A1F05A48D0018D305 /* AppDelegate.swift in Sources */,
+				71B26C1D1F05A4CE0018D305 /* TSColorRateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
